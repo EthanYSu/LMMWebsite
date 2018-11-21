@@ -1,23 +1,46 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
-.cuesection .indivcue {
+.cuesection1 .indivcue1 {
   padding-left: 10%;
 }
-.cuesection .indivcue #cuevideo1 {
+.cuesection1 .indivcue1 #cuevideo1 {
   max-width: 400px;
   max-height: 300px;
   border: 7px solid #ddd;
   border-radius: 10px;
 }
 
-.cuesection .indivcue #cuename {
+.cuesection1 #cuename {
+  padding-top: 25%;
   font: 3em "Raleway", sans-serif;
+  padding-left: 10%;
   padding-bottom: 2.5%;
 }
 
-.cuesection .indivcue #aboutcue1 {
+.cuesection1 .indivcue1 #aboutcue1 {
   padding-right: 10%;
   font: 1.2em "Raleway", sans-serif;
   float: right;
+}
+
+.cuesection2 .indivcue2 {
+  padding-top: 2.5%;
+
+  padding-right: 10%;
+}
+
+.cuesection2 .indivcue2 #cuevideo2 {
+  float: right;
+  max-width: 400px;
+  max-height: 300px;
+  border: 7px solid #ddd;
+  border-radius: 10px;
+}
+
+.cuesection2 .indivcue2 #aboutcue2 {
+  padding-left: 10%;
+  padding-top: 2.5%;
+  font: 1.2em "Raleway", sans-serif;
+  float: left;
 }
