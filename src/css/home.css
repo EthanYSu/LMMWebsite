@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+.cueclass {
+  padding-top: 17.5%;
+  text-align: center;
+  font: 5em "Raleway", sans-serif;
+  padding-bottom: 5%;
+}
