@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Title from "../Home/title";
 import CueVideos from "../Home/cuevideos";
+import TeamMembers from "../Home/abouttheteam";
 import "../../css/home.css";
 
 export default class Home extends Component {
@@ -24,6 +25,8 @@ export default class Home extends Component {
           aboutCue1={"Something about Shoulder Alignment 1."}
           aboutCue2={"Something about Shoulder Alignment 2."}
         />
+        <div className="teamclass">Team Members</div>
+        <TeamMembers />
       </div>
     );
   }
