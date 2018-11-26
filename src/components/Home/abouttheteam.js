@@ -11,7 +11,7 @@ export default class AboutTheTeam extends Component {
   render() {
     return (
       <div className="team-container">
-        <div className="img-responsive team-row1">
+        <figure id="teamrow1">
           <img
             id="memberpic"
             src={sam}
@@ -19,9 +19,9 @@ export default class AboutTheTeam extends Component {
             width="250px"
             height="250px"
           />
-          <p id="memberinfo">Sam Kim - Team Lead</p>
-        </div>
-        <div className="img-responsive team-row1">
+          <figcaption id="memberinfo">Sam Kim - Team Lead</figcaption>
+        </figure>
+        <figure id="teamrow1">
           <img
             id="memberpic"
             src={yam}
@@ -29,9 +29,9 @@ export default class AboutTheTeam extends Component {
             width="250px"
             height="250px"
           />
-          <p id="memberinfo">Nikhil Patil - Scribe</p>
-        </div>
-        <div className="img-responsive team-row1">
+          <figcaption id="memberinfo">Nikhil Patil - Scribe</figcaption>
+        </figure>
+        <figure id="teamrow1">
           <img
             id="memberpic"
             src={eric}
@@ -39,19 +39,19 @@ export default class AboutTheTeam extends Component {
             width="250px"
             height="250px"
           />
-          <p id="memberinfo">Eric Frielafert</p>
-        </div>
-        <div className="team-row2">
+          <figcaption id="memberinfo">Eric Freilafert</figcaption>
+        </figure>
+        <figure>
           <img
             id="memberpic1"
             src={arvan}
             alt="arvan"
             width="250px"
             height="250px"
-          />
-          <p id="memberinfo">Arvan Das</p>
-        </div>
-        <div className="team-row2">
+          />{" "}
+          <figcaption id="memberinfo">Arvan Das</figcaption>
+        </figure>
+        <figure>
           <img
             id="memberpic1"
             src={ethan}
@@ -59,8 +59,8 @@ export default class AboutTheTeam extends Component {
             width="250px"
             height="250px"
           />
-          <p id="memberinfo">Ethan Su</p>
-        </div>
+          <figcaption id="memberinfo">Ethan Su</figcaption>
+        </figure>
       </div>
     );
   }

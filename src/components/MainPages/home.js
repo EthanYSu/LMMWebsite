@@ -4,6 +4,7 @@ import Title from "../Home/title";
 import MainDemo from "../Home/maindemo";
 import CueVideos from "../Home/cuevideos";
 import TeamMembers from "../Home/abouttheteam";
+import Footer from "../Home/footer";
 import "../../css/home.css";
 
 export default class Home extends Component {
@@ -30,6 +31,7 @@ export default class Home extends Component {
         />
         <div className="teamclass">Team Members</div>
         <TeamMembers />
+        <Footer />
       </div>
     );
   }
