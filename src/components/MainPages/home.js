@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Title from "../Home/title";
+import MainDemo from "../Home/maindemo";
 import CueVideos from "../Home/cuevideos";
 import TeamMembers from "../Home/abouttheteam";
 import "../../css/home.css";
@@ -10,6 +11,8 @@ export default class Home extends Component {
     return (
       <div>
         <Title />
+        <div className="mainvideoclass">Demo</div>
+        <MainDemo />
         <div className="cueclass">Cues</div>
         <CueVideos
           cueName={"Squat Depth"}
