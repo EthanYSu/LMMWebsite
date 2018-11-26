@@ -25,6 +25,9 @@ body {
   padding-left: 20%;
   font: 7.1em "Raleway", sans-serif;
 }
+.titlesection .titleshadow {
+  text-shadow: 5px 5px #cccccc;
+}
 
 .groupmembers {
   padding-top: 2.5%;

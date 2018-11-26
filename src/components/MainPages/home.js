@@ -14,8 +14,8 @@ export default class Home extends Component {
         <Title />
         <div className="mainvideoclass">Demo</div>
         <MainDemo />
-        <div className="cueclass">Cues</div>
         <CueVideos
+          cuenumber="1"
           cueName={"Squat Depth"}
           videoName1={"squatdeepdata.mp4"}
           videoName2={"squatnotdeepdata.mp4"}
@@ -23,6 +23,7 @@ export default class Home extends Component {
           aboutCue2={"Something about Squat Depth 2."}
         />
         <CueVideos
+          cuenumber="2"
           cueName={"Shoulder Alignment"}
           videoName1={"shoulderaligndata.mp4"}
           videoName2={"shouldernotalignleftdata.mp4"}
@@ -30,6 +31,7 @@ export default class Home extends Component {
           aboutCue2={"Something about Shoulder Alignment 2."}
         />
         <CueVideos
+          cuenumber="3"
           cueName={"Feet Width"}
           videoName1={"good_width.mp4"}
           videoName2={"bad_width_wide.mp4"}

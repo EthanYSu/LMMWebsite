@@ -7,7 +7,10 @@ export default class CueVideos extends Component {
       <div>
         <div className="cuevideo-container">
           <section className="cuesection1">
-            <div id="cuename">{this.props.cueName}</div>
+            <div className="cueclass">
+              Cue #{this.props.cuenumber}:{" "}
+              <span className="blue-accents">{this.props.cueName}</span>
+            </div>
             <div className="indivcue1">
               <video
                 id="cuevideo1"

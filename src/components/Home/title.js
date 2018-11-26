@@ -8,7 +8,9 @@ export default class title extends Component {
           <div id="LMMtitle">
             LogMy
             <span className="blue-accents">
-              <span className="purple-underline">Motion</span>
+              <span className="purple-underline">
+                <span className="titleshadow">Motion</span>
+              </span>
             </span>
           </div>
         </section>

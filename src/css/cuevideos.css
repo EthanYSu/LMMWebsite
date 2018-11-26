@@ -4,6 +4,12 @@
 .cuesection1 {
   padding-top: 25%;
 }
+.cueclass {
+  text-align: center;
+  padding-bottom: 5%;
+  font: 3em "Raleway", sans-serif;
+  text-shadow: 1px 2px #595959;
+}
 
 .cuesection1 .indivcue1 {
   padding-left: 10%;
@@ -11,14 +17,8 @@
 .cuesection1 .indivcue1 #cuevideo1 {
   max-width: 400px;
   max-height: 300px;
-  border: 7px solid #ddd;
+  border: 7px solid #595959;
   border-radius: 10px;
-}
-
-.cuesection1 #cuename {
-  font: 3em "Raleway", sans-serif;
-  padding-left: 10%;
-  padding-bottom: 2.5%;
 }
 
 .cuesection1 .indivcue1 #aboutcue1 {
@@ -29,7 +29,6 @@
 
 .cuesection2 .indivcue2 {
   padding-top: 2.5%;
-
   padding-right: 10%;
 }
 
@@ -37,7 +36,7 @@
   float: right;
   max-width: 400px;
   max-height: 300px;
-  border: 7px solid #ddd;
+  border: 7px solid #595959;
   border-radius: 10px;
 }
 
