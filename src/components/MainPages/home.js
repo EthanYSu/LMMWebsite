@@ -29,6 +29,13 @@ export default class Home extends Component {
           aboutCue1={"Something about Shoulder Alignment 1."}
           aboutCue2={"Something about Shoulder Alignment 2."}
         />
+        <CueVideos
+          cueName={"Feet Width"}
+          videoName1={"good_width.mp4"}
+          videoName2={"bad_width_wide.mp4"}
+          aboutCue1={"Something about Feet Width 1."}
+          aboutCue2={"Something about Feet Width 2."}
+        />
         <div className="teamclass">Team Members</div>
         <TeamMembers />
         <Footer />
